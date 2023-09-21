@@ -1,0 +1,12 @@
+name: Demo-deployment
+
+on:
+  workflow_dispatch:
+
+jobs: 
+  deploy:
+    name: Hello-World
+    runs-on: self-hosted-demo
+    steps:
+      - name: Print Hello World 
+        run: echo "Hello World"
