@@ -6,7 +6,7 @@ on:
 jobs: 
   deploy:
     name: Hello-World
-    runs-on: self-hosted-demo
+    runs-on: self-hosted
     steps:
       - name: Print Hello World 
         run: echo "Hello World"
